@@ -2,8 +2,10 @@
 authors = ["{{authors}}"]
 edition = "2018"
 readme = "README.md"
-name = "{{project-name}}"
+#name = "{{project-name}}"
+name = "app"
 version = "0.1.0"
+
 
 [dependencies]
 cortex-m = "0.6.0"
@@ -26,7 +28,8 @@ panic-halt = "0.2.0"
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "{{project-name}}"
+#name = "{{project-name}}"
+name = "app"
 test = false
 bench = false
 
